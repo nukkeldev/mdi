@@ -1,16 +1,31 @@
-# Markdown Interactive (`mdi`)
-> No (direct) dependencies nor AI was involved in the making of this software.
+# Markdown Extended (`mdex`)
+> No AI was involved in the production of this software.
 
-`mdi` is a somewhat-spec-compliant fork of `CommonMark 0.31.2` 
-(with all non-spec changes clearly documented)
-that pushes markdown to be more than just text while keeping to
-it's ethos.
+`mdex` is an extensible markdown compiler supporting a variety of
+extensions.
 
 ## Roadmap
 
-### Overarching Features
+### Extensions
 
-- ...
+#### Base Versions
+- `base/cm-latest`/`base/cm-0-31-2` - `CommonMark 0.31.2`
+
+#### Text Handling
+- `th/nor` - Disallow `\r` line endings.
+- `th/utf8` - Enforces `utf8` encoding.
+
+#### Debugging
+- `dbg/v` - Verbose debug logging.
+- `dbg/vv` - Verbose-er debug logging.
+- `dbg/vvv` - Log everything.
+
+#### Github-Flavored Markdown
+- `gfm/table`
+- `gfm/tasklist`
+- `gfm/strikethrough`
+- `gfm/autolink`
+- `gfm/tagfilter`
 
 ### By Version
 
